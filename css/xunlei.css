@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*!
+ * 版本：MYUI Copyright © 2019
+ * 作者：QQ726662013版权所有
+ * 官网：https://www.mytheme.cn
+ */
+.myui-content__down li{ padding: 10px;}
+.myui-content__down li:first-child{ margin-top: -20px;}
+.myui-content__down li:hover{ background-color: #f8f8f8}
+.myui-content__down li .text{ line-height: 30px;}
+.myui-content__down li .operate{ float: right;}
+.myui-content__down li .operate .btn{ display: inline-block; margin-left: 5px; padding: 5px 10px;}
+.myui-content__down li .operate .btn:hover{ opacity: 0.8;}
+.myui-content__down li .operate .btn img{ vertical-align: -1px;}
+.myui-content__down li .operate .thunder{ background-color: #11a5e8; border-color: #11a5e8; color: #fff;}
+.myui-content__down li .operate .bendi{ background-color: #009966; border-color: #009966; color: #fff;}
+.myui-content__down li .operate .copy{ background-color: #ff9900; border-color: #ff9900; color: #fff;}
+.myui-content__down li .operate .xiaomi{ background-color: #FF5722; border-color: #FF5722; color: #fff;}
+.myui-content__down li .operate .thunderkk{ background-color: #009688; border-color: #009688; color: #fff;}
+
+@media (max-width: 769px){	
+	.myui-content__down li{ padding: 5px 0 10px;}
+	.myui-content__down li .operate{ float: none; display: block;}
+}
